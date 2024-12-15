@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #000; /* Set the background color to black */
+    color: #fff; /* Set text color to white for readability */
+}
+
+.button {
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid #fff; /* White border to contrast the dark background */
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: #333; /* Dark button background */
+    color: #fff; /* White text for buttons */
+}
+
+.button:hover {
+    background-color: #444; /* Slightly lighter color on hover */
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    width: 205px;
+    margin: 0;
+    padding: 10px 46px;
+    border: 2px solid #fff; /* White border */
+    border-radius: 5px;
+    background-color: #222; /* Darker background for input */
+    color: #fff; /* White text inside input */
+}
